@@ -22,8 +22,8 @@ Before you begin, ensure you have the following installed:
 
 ### 1. Clone the repository:
 ```bash
-git clone https://github.com/Irislxy/tech_assessment.git
-cd tech_assessment
+git clone https://github.com/your-username/project-name.git
+cd project-name
 ```
 ### 2. Install dependencies:
 ```
