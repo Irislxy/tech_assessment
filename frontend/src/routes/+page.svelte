@@ -108,7 +108,8 @@
 
   <form on:submit|preventDefault={handleUpload} class="upload-file">
     <h2>Upload file</h2>
-    <input type="file" name="csvFile" accept=".csv" on:change={handleFileChange}/>
+    <label for="csvFile">Choose File</label>
+    <input id="csvFile" type="file" name="csvFile" accept=".csv" on:change={handleFileChange}/>
     <button type="submit" disabled={isUploading}>Upload CSV</button>
   </form>
 
